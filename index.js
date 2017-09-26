@@ -6,6 +6,8 @@ app.get('/', function(reg,res) {
     res.send('Hello World');
 }); 
 
+// TO DO GET APPLES
+
 app.listen(3000, function() {
     console.log(`y server is running on port ${port}`);
 });
